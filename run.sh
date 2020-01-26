@@ -1,1 +1,5 @@
-docker run -it --name proxy -p 3128:3128 kmahara/proxy
+IMAGE_NAME=kmahara/proxy
+CONTAINER_NAME=proxy
+
+docker run --rm -it --name $CONTAINER_NAME \
+-p 3128:3128 $IMAGE_NAME
