@@ -1,4 +1,4 @@
-IMAGE_NAME=kmahara/proxy
+IMAGE_NAME=trasis/proxy
 CONTAINER_NAME=proxy
 
 docker run --rm -it --name $CONTAINER_NAME \

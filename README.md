@@ -1,7 +1,14 @@
 # proxy
-Dockerfile for Centos 6 + squid
+Dockerfile for squid
+
+## How to use
+
+```
+docker-compose up
+```
 
 ## How to build
+
 ./build.sh
 
 ## How to test run
