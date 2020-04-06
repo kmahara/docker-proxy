@@ -1,8 +1,7 @@
 FROM alpine
 
 RUN \
-	apk add --no-cache squid tzdata && \
-	cp /usr/share/zoneinfo/Asia/Tokyo /etc/localtime && \
+	apk add --no-cache squid && \
 	install -d -o squid -g squid \
                 /var/cache/squid \
                 /var/log/squid \

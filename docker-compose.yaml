@@ -1,5 +1,7 @@
 squid:
-  image: trasis/proxy
+  build: ./docker
   container_name: proxy
+  volumes:
+    - /etc/localtime:/etc/localtime
   ports:
     - "3128:3128"
